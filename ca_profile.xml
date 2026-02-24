@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://raw.githubusercontent.com/titandrive/yarnl/main/assets/icon.png</Icon>
+  <Profile>
+    Developer of Yarnl, a self-hosted crochet pattern manager. Aficionado of crocheting and self-hosting. Source code is available on GitHub at github.com/titandrive/yarnl.
+  </Profile>
+  <Forum>https://forums.unraid.net/topic/197409-support-titandriveyarnl/</Forum>
+  <WebPage>https://yarnl.com</WebPage>
+  <DonateLink>https://ko-fi.com/titandrive</DonateLink>
+  <DonateText>If you enjoy my work please consider supporting me on Ko-fi.</DonateText>
+</Maintainer>
