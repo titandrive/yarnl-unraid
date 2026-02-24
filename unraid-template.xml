@@ -7,7 +7,7 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/titandrive/yarnl/issues</Support>
   <Project>https://yarnl.com</Project>
-  <ReadMe>https://yarnl.com/docs/category/user-guide</ReadMe>
+  <ReadMe>https://yarnl.com/docs/guide/unraid</ReadMe>
   <Overview>Your self-hosted crochet companion. Manage crochet patterns, track project progress, and organize your pattern library. Supports multi-user, OIDC/SSO, scheduled backups, and more.</Overview>
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
