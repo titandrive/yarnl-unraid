@@ -14,6 +14,7 @@
   <Icon>https://raw.githubusercontent.com/titandrive/yarnl/main/assets/icon.png</Icon>
   <DonateText>Support Yarnl on Ko-fi</DonateText>
   <DonateLink>https://ko-fi.com/titandrive</DonateLink>
+  <Requires>PostgreSQL 16 container is required. Install the PostgreSQL template from Community Applications before installing Yarnl.</Requires>
   <Config Name="Port" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
   <Config Name="App Data" Target="/app/users" Default="" Mode="rw" Description="Location where Yarnl stores all user data including patterns, thumbnails, notes, and backups" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/yarnl/users</Config>
   <Config Name="Backup Path" Target="/backups" Default="" Mode="rw" Description="Optional: mount an external path to store backups. Set 'Use External Backup Path' to true if using this." Type="Path" Display="always" Required="false" Mask="false"/>
