@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>yarnl</Name>
+  <Repository>titandrive/yarnl</Repository>
+  <Registry>https://hub.docker.com/r/titandrive/yarnl/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/titandrive/yarnl/issues</Support>
+  <Project>https://yarnl.com</Project>
+  <ReadMe>https://yarnl.com/docs/category/user-guide</ReadMe>
+  <Overview>Your self-hosted crochet companion. Manage crochet patterns, track project progress, and organize your pattern library. Supports multi-user, OIDC/SSO, scheduled backups, and more.</Overview>
+  <Category>Productivity:</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/titandrive/yarnl/main/assets/icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1771926256</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Container Port 1" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
+  <Config Name="Database Host" Target="POSTGRES_HOST" Default="yarnl-db" Mode="" Description="Hostname of the PostgreSQL container" Type="Variable" Display="always" Required="true" Mask="false">yarnl-db</Config>
+  <Config Name="Database Port" Target="POSTGRES_PORT" Default="5432" Mode="" Description="Port for the PostgreSQL database" Type="Variable" Display="always" Required="true" Mask="false">5432</Config>
+  <Config Name="Database Name" Target="POSTGRES_DB" Default="yarnl" Mode="" Description="Name of the PostgreSQL database" Type="Variable" Display="always" Required="true" Mask="false">yarnl</Config>
+  <Config Name="Database Username" Target="POSTGRES_USER" Default="yarnl" Mode="" Description="PostgreSQL database username" Type="Variable" Display="always" Required="true" Mask="false">yarnl</Config>
+  <Config Name="Admin Username" Target="ADMIN_USERNAME" Default="admin" Mode="" Description="Initial admin account username" Type="Variable" Display="always" Required="true" Mask="false">admin</Config>
+  <Config Name="Admin Password" Target="ADMIN_PASSWORD" Default="" Mode="" Description="Initial admin password (leave empty for passwordless login)" Type="Variable" Display="always" Required="false" Mask="true"/>
+  <Config Name="Timezone" Target="TZ" Default="UTC" Mode="" Description="Timezone for scheduled backups (e.g. America/New_York)" Type="Variable" Display="always" Required="false" Mask="false">UTC</Config>
+  <Config Name="Database Password" Target="POSTGRES_PASSWORD" Default="yarnl" Mode="" Description="PostgreSQL database password" Type="Variable" Display="always" Required="true" Mask="true">yarnl</Config>
+  <Config Name="App Data" Target="/app/users" Default="" Mode="rw" Description="Location where Yarnl stores all user data including patterns, thumbnails, notes, and backups" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/yarnl/users</Config>
+  <Config Name="Backup Path" Target="/backups" Default="" Mode="rw" Description="Optional external backup storage location" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="External Backup Path" Target="BACKUP_PATH" Default="" Mode="" Description="Set to /backups if you want to use the optional backup path volume. Otherwise leave blank." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <TailscaleStateDir/>
+</Container>
