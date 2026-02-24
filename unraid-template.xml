@@ -5,7 +5,7 @@
   <Registry>https://hub.docker.com/r/titandrive/yarnl/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
-  <Support>https://github.com/titandrive/yarnl/issues</Support>
+  <Support>https://forums.unraid.net/topic/197409-support-titandriveyarnl/</Support>
   <Project>https://yarnl.com</Project>
   <ReadMe>https://yarnl.com/docs/guide/unraid</ReadMe>
   <Overview>Your self-hosted crochet companion. Manage crochet patterns, track project progress, and organize your pattern library. Supports multi-user, OIDC/SSO, scheduled backups, and more.</Overview>
