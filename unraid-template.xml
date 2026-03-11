@@ -11,7 +11,7 @@
   <Overview>Your self-hosted crochet companion. Manage crochet patterns, track project progress, and organize your pattern library. Supports multi-user, OIDC/SSO, scheduled backups, and more.</Overview>
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
- <Icon>https://raw.githubusercontent.com/titandrive/yarnl-unraid/main/icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/titandrive/yarnl-unraid/main/icon.png</Icon>
   <DonateText>Support Yarnl on Ko-fi</DonateText>
   <DonateLink>https://ko-fi.com/titandrive</DonateLink>
   <Requires>PostgreSQL 16 container is required. Install the PostgreSQL template from Community Applications before installing Yarnl.</Requires>
